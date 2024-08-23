@@ -1,0 +1,25 @@
+body
+{
+  text-align: center;
+}
+.gm1
+{
+  margin: 100px auto;
+  width: 600px;
+  height: 450px;
+  border-radius: 0px;
+  border:2px solid brown;
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  
+}
+.gm1 p{
+  text-align: left;  
+  padding-left: 140px;
+
+}
+.button
+{
+  margin: 25px;
+}

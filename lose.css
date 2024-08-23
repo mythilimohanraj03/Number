@@ -1,0 +1,10 @@
+body{
+    background-image:url("lose.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lose
+{
+    text-align: center;
+    color:aliceblue;
+}

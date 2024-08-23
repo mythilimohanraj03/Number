@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">3
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="gm1">
+    <center><h1>Number Guessing Application</h1>
+        <h1>Rules</h1></center>
+
+    <p>Select number from 1 to 100</p>
+    <p>Click on the check button</p>
+    <p>It will give the hint correct</p>
+    <p>Repeat the same step util you find the answer</p>
+    <div class="check">
+        <input type="number"value="number" id="num"placeholder="Enter the Number">
+        <p id="sentence"></p>
+        <p class="number"></p>
+        <div>
+            <button onclick="check()">check</button>
+            <button onclick="reload()">reset</button>
+            <p id="count"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <div> 
+    <script src="./game.js"></script>
+</div>
+</body>
+</html> 

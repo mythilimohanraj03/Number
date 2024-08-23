@@ -1,0 +1,10 @@
+body{
+    background-image:url("./w1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.won
+{
+    text-align: center;
+    color:black;
+}
